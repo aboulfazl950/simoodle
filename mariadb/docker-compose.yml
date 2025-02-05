@@ -1,0 +1,23 @@
+services:
+  mariadb:
+    image: mariadb:10.6
+    container_name: mariadb
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: root_password
+      MYSQL_DATABASE: moodle
+      MYSQL_USER: moodle_user
+      MYSQL_PASSWORD: moodle_password
+    volumes:
+      - ./mariadb_data:/var/lib/mysql
+    ports:
+      - "3306:3306"  # اکسپوز کردن پورت برای دسترسی خارجی
+    networks:
+      - moodle-net
+      
+volumes:
+  mariadb_data:
+
+networks:
+  moodle-net:
+    external: true
