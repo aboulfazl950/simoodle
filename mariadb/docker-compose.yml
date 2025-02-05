@@ -11,13 +11,4 @@ services:
     volumes:
       - ./mariadb_data:/var/lib/mysql
     ports:
-      - "3306:3306"  # اکسپوز کردن پورت برای دسترسی خارجی
-    networks:
-      - moodle-net
-      
-volumes:
-  mariadb_data:
-
-networks:
-  moodle-net:
-    external: true
+      - "3306:3306"
