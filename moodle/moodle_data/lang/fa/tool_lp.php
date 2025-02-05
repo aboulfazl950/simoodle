@@ -1,0 +1,270 @@
+<?php
+// This file is part of Moodle - https://moodle.org/
+//
+// Moodle is free software: you can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation, either version 3 of the License, or
+// (at your option) any later version.
+//
+// Moodle is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU General Public License for more details.
+//
+// You should have received a copy of the GNU General Public License
+// along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
+
+/**
+ * Strings for component 'tool_lp', language 'fa', version '4.5'.
+ *
+ * @package     tool_lp
+ * @category    string
+ * @copyright   1999 Martin Dougiamas and contributors
+ * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ */
+
+defined('MOODLE_INTERNAL') || die();
+
+$string['actions'] = 'اقدامات';
+$string['activities'] = 'فعالیت‌ها';
+$string['addcohorts'] = 'اضافه‌کردن گروه‌های هم‌دوره‌ای';
+$string['addcohortstosync'] = 'اضافه‌کردن گروه‌های هم‌دوره‌ای به همگام‌سازی';
+$string['addcompetency'] = 'اضافه‌کردن شایستگی';
+$string['addcoursecompetencies'] = 'اضافه‌کردن شایستگی‌ها به درس';
+$string['addcrossreferencedcompetency'] = 'اضافه‌کردن شایستگی با ارجاع متقابل';
+$string['addingcompetencywillresetparentrule'] = 'اضافه‌کردن یک شایستگی جدید موجب می‌شود که قاعدهٔ تعیین شده برای «{$a}» حذف شود. آیا می‌خواهید ادامه دهید؟';
+$string['addnewcompetency'] = 'اضافه‌کردن شایستگی جدید';
+$string['addnewcompetencyframework'] = 'اضافه‌کردن چارچوب شایستگی جدید';
+$string['addnewplan'] = 'اضافه‌کردن برنامه یادگیری جدید';
+$string['addnewtemplate'] = 'اضافه‌کردن الگوی جدید برنامه یادگیری';
+$string['addnewuserevidence'] = 'اضافه‌کردن مدرک جدید';
+$string['addtemplatecompetencies'] = 'اضافه‌کردن شایستگی‌ها به الگوی برنامه یادگیری';
+$string['aisrequired'] = '«{$a}» لازم است';
+$string['aplanswerecreated'] = '{$a} برنامهٔ یادگیری ساخته شد.';
+$string['aplanswerecreatedmoremayrequiresync'] = '{$a} برنامهٔ یادگیری ساخته شد؛ همراه با همگام‌سازی بعدی تعداد بیشتری ساخته خواهد شد.';
+$string['assigncohorts'] = 'انتساب گروه‌های هم‌دوره‌ای';
+$string['averageproficiencyrate'] = 'میانگین نرخ شایستگی برای برنامه‌های یادگیری کامل‌شده مبتنی بر این الگو ٪{$a} است';
+$string['cancelreviewrequest'] = 'لغو درخواست بازبینی';
+$string['cannotaddrules'] = 'پیکربندی نمی‌تواند پیکربندی شود.';
+$string['cannotcreateuserplanswhentemplateduedateispassed'] = 'نمی‌توان برنامه‌های یادگیری جدید ساخت. مهلت الگو منقضی شده است، یا در آستانهٔ منقضی شدن است.';
+$string['cannotcreateuserplanswhentemplatehidden'] = 'در زمانی که این الگو پنهان است نمی‌توان برنامه‌های یادگیری جدیدی ایجاد کرد.';
+$string['category'] = 'دسته';
+$string['chooserating'] = 'یک امتیاز را انتخاب کنید...';
+$string['cohortssyncedtotemplate'] = 'گروه هم‌کلاسی‌های همگام‌شده با الگوی برنامه یادگیری';
+$string['competenciesforframework'] = 'شایستگی‌های {$a}';
+$string['competencycannotbedeleted'] = 'شایستگی «{$a}» نمی‌تواند پاک شود';
+$string['competencycreated'] = 'شایستگی ایجاد شد';
+$string['competencycrossreferencedcompetencies'] = '{$a} شایستگی با ارجاع متقابل';
+$string['competencyframework'] = 'چارچوب شایستگی';
+$string['competencyframeworkcreated'] = 'چارچوب شایستگی ایجاد شد.';
+$string['competencyframeworkname'] = 'نام';
+$string['competencyframeworkroot'] = 'بدون مادر (شایستگی سطح اول)';
+$string['competencyframeworks'] = 'چارچوب‌های شایستگی';
+$string['competencyframeworksrepository'] = 'انبارهٔ چارچوب‌های شایستگی';
+$string['competencyframeworkupdated'] = 'چارچوب شایستگی به‌روز شد.';
+$string['competencyoutcome_complete'] = 'علامت خوردن به‌عنوان کامل';
+$string['competencyoutcome_evidence'] = 'ضمیمه شدن یک مدرک';
+$string['competencyoutcome_none'] = 'هیچ';
+$string['competencyoutcome_recommend'] = 'توصیه شدن شایستگی';
+$string['competencypicker'] = 'انتخاب‌گر شایستگی';
+$string['competencyrule'] = 'قاعدهٔ شایستگی';
+$string['competencyupdated'] = 'شایستگی به‌روز شد';
+$string['completeplan'] = 'تکمیل این برنامهٔ یادگیری';
+$string['configurecoursecompetencysettings'] = 'پیکربندی شایستگی‌های درس';
+$string['configurescale'] = 'پیکربندی مقیاس‌ها';
+$string['coursecompetencies'] = 'شایستگی‌های درس';
+$string['coursecompetencyratingsarenotpushedtouserplans'] = 'امتیازهای شایستگی‌ها در این درس تاثیری در برنامه‌های یادگیری ندارند.';
+$string['coursecompetencyratingsarepushedtouserplans'] = 'امتیازهای شایستگی‌ها در این درس بلافاصله در برنامه‌های یادگیری به‌روز می‌شوند.';
+$string['coursesusingthiscompetency'] = 'درس‌های مرتبط با این شایستگی';
+$string['coveragesummary'] = '{$a->competenciescoveredcount} از {$a->competenciescount} شایستگی پوشش داده شد ( {$a->coveragepercentage} % )';
+$string['createlearningplans'] = 'تعریف برنامه یادگیری';
+$string['createplans'] = 'تعریف برنامه یادگیری';
+$string['crossreferencedcompetencies'] = 'شایستگی‌های دارای ارجاع متقابل';
+$string['default'] = 'پیش‌فرض';
+$string['deletecompetency'] = 'پاک کردن شایستگی «{$a}»؟';
+$string['deletecompetencyframework'] = 'حذف چارچوب شایستگی «{$a}»؟';
+$string['deletecompetencyparenthasrule'] = 'حذف شایستگی «{$a}»؟ این کار موجب می‌شود که قاعدهٔ تعیین شده برای شایستگی مادر هم حذف شود.';
+$string['deleteplan'] = 'پاک‌کردن برنامهٔ یادگیری «{$a}»؟';
+$string['deleteplans'] = 'پاک‌کردن برنامه‌های یادگیری';
+$string['deletetemplate'] = 'حذف الگوی برنامه یادگیری «{$a}»؟';
+$string['deletetemplatewithplans'] = 'این الگو دارای برنامه‌های یادگیری‌ای است که به آن مربوط شده‌اند. باید مشخص کنید که آن برنامه‌ها چطور پردازش شوند.';
+$string['deletethisplan'] = 'پاک‌کردن این برنامهٔ یادگیری';
+$string['deletethisuserevidence'] = 'پاک‌کردن این مدرک';
+$string['deleteuserevidence'] = 'پاک کردن مدرک یادگیری قبلی «{$a}»؟';
+$string['description'] = 'توصیف';
+$string['duedate'] = 'مهلت';
+$string['duedate_help'] = 'تاریخی که یک برنامهٔ یادگیری تا آن تاریخ باید تکمیل شده باشد.';
+$string['editcompetency'] = 'ویرایش شایستگی';
+$string['editcompetencyframework'] = 'ویرایش چارچوب شایستگی';
+$string['editplan'] = 'ویرایش برنامهٔ یادگیری';
+$string['editrating'] = 'ویرایش امتیاز';
+$string['edittemplate'] = 'ویرایش الگوی برنامه یادگیری';
+$string['editthisplan'] = 'ویرایش این برنامهٔ یادگیری';
+$string['editthisuserevidence'] = 'ویرایش این مدرک';
+$string['edituserevidence'] = 'ویرایش مدرک';
+$string['evidence'] = 'مدرک';
+$string['filterbyactivity'] = 'فیلتر کردن شایستگی‌ها بر اساس منابع یا فعالیت‌ها';
+$string['findcourses'] = 'پیدا کردن دروس';
+$string['frameworkcannotbedeleted'] = 'چارچوب شایستگی «{$a}» را نمی‌توان حذف کرد.';
+$string['hidden'] = 'پنهان';
+$string['hiddenhint'] = '(پنهان)';
+$string['idnumber'] = 'کد شناسایی';
+$string['inheritfromframework'] = 'به‌ارث‌بردن از چارچوب شایستگی (پیش‌فرض)';
+$string['jumptocompetency'] = 'پرش به شایستگی';
+$string['jumptouser'] = 'پرش به کاربر مورد نظر';
+$string['learningplancompetencies'] = 'شایستگی‌های برنامه یادگیری';
+$string['learningplans'] = 'برنامه‌های آزموشی';
+$string['levela'] = 'سطح {$a}';
+$string['linkedcourses'] = 'دروس مرتبط';
+$string['linkedcourseslist'] = 'دروس مرتبط:';
+$string['listcompetencyframeworkscaption'] = 'لیست چارچوب‌های شایستگی';
+$string['listofevidence'] = 'لیست مدارک';
+$string['listplanscaption'] = 'لیست برنامه‌های یادگیری';
+$string['listtemplatescaption'] = 'لیست الگوهای برنامه یادگیری';
+$string['loading'] = 'در حال بارگیری...';
+$string['locatecompetency'] = 'پیدا کردن شایستگی';
+$string['managecompetenciesandframeworks'] = 'مدیریت شایستگی‌ها و چارچوب‌ها';
+$string['modcompetencies'] = 'شایستگی‌های درس';
+$string['modcompetencies_help'] = 'شایستگی‌های درس که به این فعالیت مرتبط‌اند.';
+$string['move'] = 'انتقال';
+$string['movecompetency'] = 'انتقال شایستگی';
+$string['movecompetencyafter'] = 'انتقال شایستگی به بعد از «{$a}»';
+$string['movecompetencyframework'] = 'انتقال چارچوب شایستگی';
+$string['movecompetencytochildofselfwillresetrules'] = 'انتقال شایستگی موجب می‌شود که قاعدهٔ تعیین شده برای آن شایستگی و همچنین قواعد تعیین شده برای شایستگی‌های مادر و مقصد آن شایستگی حذف شود. آیا می‌خواهید ادامه دهید؟';
+$string['movecompetencywillresetrules'] = 'انتقال شایستگی موجب می‌شود که قواعد تعیین شده برای شایستگی‌های مادر و مقصد آن شایستگی حذف شود. آیا می‌خواهید ادامه دهید؟';
+$string['moveframeworkafter'] = 'انتقال چارچوب شایستگی به بعد از «{$a}»';
+$string['movetonewparent'] = 'نقل مکان';
+$string['myplans'] = 'برنامه‌های یادگیری من';
+$string['nfiles'] = '{$a} فایل';
+$string['nocompetenciesincourse'] = 'هیچ شایستگی‌ای به این درس مرتبط نشده است.';
+$string['nocompetenciesinlearningplan'] = 'هیچ شایستگی‌ای به این برنامه یادگیری مرتبط نشده است.';
+$string['nocompetenciesintemplate'] = 'هیچ شایستگی‌ای به این الگوی برنامه یادگیری مرتبط نشده است.';
+$string['nocompetencyframeworks'] = 'هنوز هیچ چارچوب شایستگی‌ای تعریف نشده است.';
+$string['nocompetencyselected'] = 'شایستگی‌ای انتخاب نشده است';
+$string['nocrossreferencedcompetencies'] = 'هیچ شایستگی دیگری به این شایستگی به‌طور متقابل ارجاع داده نشده است.';
+$string['noevidence'] = 'بدون مدرک';
+$string['noparticipants'] = 'هیچ شرکت‌کننده‌ای پیدا نشد.';
+$string['noplanswerecreated'] = 'هیچ برنامهٔ یادگیری‌ای ساخته نشده است.';
+$string['notemplates'] = 'هنوز هیچ الگوی برنامه یادگیری‌ای تعریف نشده است.';
+$string['nouserevidence'] = 'هنوز مدرکی مبنی بر یادگیری قبلی اضافه نشده است.';
+$string['outcome'] = 'هدف';
+$string['parentcompetency'] = 'مادر';
+$string['parentcompetency_edit'] = 'ویرایش مادر';
+$string['path'] = 'مسیر:';
+$string['planapprove'] = 'فعال ساختن';
+$string['plancompleted'] = 'برنامه سادگیری کامل شد';
+$string['plancreated'] = 'برنامهٔ یادگیری ایجاد شد';
+$string['plandescription'] = 'توصیف';
+$string['planname'] = 'نام';
+$string['plantemplate'] = 'انتخاب الگوی برنامه یادگیری';
+$string['plantemplate_help'] = 'یک برنامهٔ یادگیری که از روی یک الگو ساخته شده باشد شامل لیستی از شایستگی‌هایی که مربوط با آن الگو هستند خواهد بود. هر گونه به‌روز رسانی در الگو روی تمام برنامه‌هایی که از روی آن الگو ساخته شده‌اند منعکس خواهد شد.';
+$string['planunapprove'] = 'بازگرداندن به پیش‌نویس';
+$string['planupdated'] = 'برنامهٔ یادگیری به‌روز شد';
+$string['pluginname'] = 'برنامه‌های یادگیری';
+$string['points'] = 'امتیاز';
+$string['pointsgivenfor'] = 'امتیاز داده شده برای «{$a}»';
+$string['proficient'] = 'کسب مهارت';
+$string['progress'] = 'پیشروی';
+$string['rating'] = 'امتیاز';
+$string['reopenplan'] = 'باز کردن مجدد این برنامهٔ یادگیری';
+$string['requestreview'] = 'درخواست بازبینی';
+$string['reviewer'] = 'بازبین';
+$string['reviewstatus'] = 'بازبینی وضعیت';
+$string['savechanges'] = 'ذخیرهٔ تغییرات';
+$string['scale'] = 'مقیاس';
+$string['scalevalue'] = 'مقدار مقیاس';
+$string['search'] = 'جستجو...';
+$string['selectcohortstosync'] = 'انتخاب هم‌دوره‌ای‌ها برای همگام شدن';
+$string['selectcompetencymovetarget'] = 'محلی را انتخاب کنید تا این شایستگی به آنجا منتقل شود:';
+$string['selectedcompetency'] = 'شایستگیِ انتخاب شده';
+$string['selectuserstocreateplansfor'] = 'کاربرانی که می‌خواهید برایشان برنامه یادگیری تعریف کنید را انتخاب کنید';
+$string['sendallcompetenciestoreview'] = 'فرستادن تمام شایستگی‌های درحال بازبینی برای مدرک یادگیری پیشین «{$a}»';
+$string['sendcompetenciestoreview'] = 'فرستادن شایستگی‌ها برای مرور';
+$string['shortname'] = 'نام';
+$string['sitedefault'] = '(پیش‌فرض سایت)';
+$string['startreview'] = 'شروع بازبینی';
+$string['state'] = 'وضعیت';
+$string['status'] = 'وضعیت';
+$string['stopreview'] = 'پایان بازبینی';
+$string['stopsyncingcohort'] = 'توقف همگام‌سازی هم‌دوره‌ای';
+$string['taxonomies'] = 'طبقه‌بندی‌ها';
+$string['taxonomy_add_behaviour'] = 'اضافه‌کردن رفتار';
+$string['taxonomy_add_competency'] = 'اضافه‌کردن شایستگی';
+$string['taxonomy_add_concept'] = 'اضافه‌کردن مفهوم';
+$string['taxonomy_add_domain'] = 'اضافه‌کردن دامنه';
+$string['taxonomy_add_indicator'] = 'اضافه‌کردن شاخص';
+$string['taxonomy_add_level'] = 'اضافه‌کردن سطح';
+$string['taxonomy_add_outcome'] = 'اضافه‌کردن هدف';
+$string['taxonomy_add_practice'] = 'اضافه‌کردن تمرین';
+$string['taxonomy_add_proficiency'] = 'اضافه‌کردن تخصص';
+$string['taxonomy_add_skill'] = 'اضافه‌کردن مهارت';
+$string['taxonomy_add_value'] = 'اضافه‌کردن ارزش';
+$string['taxonomy_edit_behaviour'] = 'ویرایش رفتار';
+$string['taxonomy_edit_competency'] = 'ویرایش شایستگی';
+$string['taxonomy_edit_concept'] = 'ویرایش مفهوم';
+$string['taxonomy_edit_domain'] = 'ویرایش دامنه';
+$string['taxonomy_edit_indicator'] = 'ویرایش شاخص';
+$string['taxonomy_edit_level'] = 'ویرایش سطح';
+$string['taxonomy_edit_outcome'] = 'ویرایش هدف';
+$string['taxonomy_edit_practice'] = 'ویرایش تمرین';
+$string['taxonomy_edit_proficiency'] = 'ویرایش تخصص';
+$string['taxonomy_edit_skill'] = 'ویرایش مهارت';
+$string['taxonomy_edit_value'] = 'ویرایش ارزش';
+$string['taxonomy_parent_behaviour'] = 'رفتار مادر';
+$string['taxonomy_parent_competency'] = 'شایستگی مادر';
+$string['taxonomy_parent_concept'] = 'مفهوم مادر';
+$string['taxonomy_parent_domain'] = 'دامنهٔ مادر';
+$string['taxonomy_parent_indicator'] = 'شاخص مادر';
+$string['taxonomy_parent_level'] = 'سطح مادر';
+$string['taxonomy_parent_outcome'] = 'هدف مادر';
+$string['taxonomy_parent_practice'] = 'تمرین مادر';
+$string['taxonomy_parent_proficiency'] = 'تخصص مادر';
+$string['taxonomy_parent_skill'] = 'مهارت مادر';
+$string['taxonomy_parent_value'] = 'ارزش مادر';
+$string['taxonomy_selected_behaviour'] = 'رفتار انتخاب شده';
+$string['taxonomy_selected_competency'] = 'شایستگیِ انتخاب شده';
+$string['taxonomy_selected_concept'] = 'مفهوم انتخاب شده';
+$string['taxonomy_selected_domain'] = 'دامنهٔ انتخاب شده';
+$string['taxonomy_selected_indicator'] = 'شاخص انتخاب شده';
+$string['taxonomy_selected_level'] = 'سطح انتخاب شده';
+$string['taxonomy_selected_outcome'] = 'هدف انتخاب شده';
+$string['taxonomy_selected_practice'] = 'تمرین انتخاب شده';
+$string['taxonomy_selected_proficiency'] = 'تخصص انتخاب شده';
+$string['taxonomy_selected_skill'] = 'مهارت انتخاب شده';
+$string['taxonomy_selected_value'] = 'ارزش انتخاب شده';
+$string['template'] = 'الگوی برنامه یادگیری';
+$string['templatebased'] = 'مبتنی بر الگو';
+$string['templatecohortnotsyncedwhileduedateispassed'] = 'اگر مهلت الگو منقضی شده باشد هم‌دوره‌ای‌ها همگام نخواهند شد.';
+$string['templatecohortnotsyncedwhilehidden'] = 'تا زمانی که این الگو پنهان است هم‌دوره‌ای‌ها همگام نخواهند شد.';
+$string['templatecompetencies'] = 'شایستگی‌های الگوی برنامه یادگیری';
+$string['templatecreated'] = 'الگوی برنامه یادگیری ایجاد شد';
+$string['templatename'] = 'نام';
+$string['templates'] = 'الگوهای برنامه یادگیری';
+$string['templateupdated'] = 'الگوی برنامه آمووزشی به‌روز شد';
+$string['totalrequiredtocomplete'] = 'مجموع مورد نیاز برای تکمیل';
+$string['unlinkcompetencycourse'] = 'قطع ارتباط شایستگی «{$a}» با درس؟';
+$string['unlinkcompetencyplan'] = 'قطع ارتباط شایستگی «{$a}» با برنامهٔ یادگیری؟';
+$string['unlinkcompetencytemplate'] = 'قطع ارتباط شایستگی «{$a}» با الگوی برنامه یادگیری؟';
+$string['unlinkplanstemplate'] = 'ارتباط بین برنامه‌های یادگیری و الگویشان قطع شود';
+$string['unlinkplantemplate'] = 'قطع ارتباط با الگوی برنامه یادگیری';
+$string['unlinkplantemplateconfirm'] = 'قطع ارتباط برنامهٔ یادگیری «{$a}» از الگویش؟ هر گونه تغییری که در الگو داده شود دیگر روی برنامه اعمال نخواهد شد. این عمل بازگشت‌پذیر نیست.';
+$string['uponcoursecompletion'] = 'هم‌زمان با تکمیل درس:';
+$string['uponcoursemodulecompletion'] = 'به‌محض تکمیل فعالیت:';
+$string['usercompetencyfrozen'] = 'این رکورد غیر قابل تغییر است. این رکورد بازتاب‌دهندهٔ وضعیت شایستگی کاربران در زمانی که برنامهٔ یادگیری‌شان به‌عنوان تکمیل‌شده علامت خورده است می‌باشد.';
+$string['userevidence'] = 'مدرک یادگیری قبلی';
+$string['userevidencecreated'] = 'مدرک یادگیری قبلی ساخته شد';
+$string['userevidencedescription'] = 'توصیف';
+$string['userevidencefiles'] = 'فایل‌ها';
+$string['userevidencename'] = 'نام';
+$string['userevidencesummary'] = 'خلاصه';
+$string['userevidenceupdated'] = 'مدرک یادگیری قبلی به‌روز شد';
+$string['userevidenceurl'] = 'آدرس اینترنتی';
+$string['userevidenceurl_help'] = 'آدرس اینترنتی باید با «http://» یا «https://» شروع شود.';
+$string['viewdetails'] = 'مشاهدهٔ جزئیات';
+$string['visible'] = 'قابل مشاهده';
+$string['visible_help'] = 'یک برنامهٔ آموزشی می‌تواند زمانی که در حال پیکربندی یا ارتقا به یک نسخهٔ جدید است پنهان شود.';
+$string['when'] = 'هنگامی که';
+$string['xcompetencieslinkedoutofy'] = '{$a->x} شایستگی از {$a->y} شایستگی به درس‌ها متصل شده‌اند';
+$string['xcompetenciesproficientoutofy'] = 'در {$a->x} شایستگی از مجموع {$a->y} شایستگی مهارت کسب شده است';
+$string['xcompetenciesproficientoutofyincourse'] = 'شما در {$a->x} شایستگی از {$a->y} شایستگی ماهر هستید.';
+$string['xplanscompletedoutofy'] = '{$a->x} برنامه از {$a->y} برنامهٔ یادگیری برای این الگو تکمیل شده است';

@@ -1,0 +1,328 @@
+<?php
+// This file is part of Moodle - https://moodle.org/
+//
+// Moodle is free software: you can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation, either version 3 of the License, or
+// (at your option) any later version.
+//
+// Moodle is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU General Public License for more details.
+//
+// You should have received a copy of the GNU General Public License
+// along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
+
+/**
+ * Strings for component 'role', language 'fa', version '4.5'.
+ *
+ * @package     role
+ * @category    string
+ * @copyright   1999 Martin Dougiamas and contributors
+ * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ */
+
+defined('MOODLE_INTERNAL') || die();
+
+$string['addinganewrole'] = 'تعریف یک نقش جدید';
+$string['addrole'] = 'ایجاد یک نقش جدید';
+$string['advancedoverride'] = 'بازنویسی نقش پیشرفته';
+$string['allow'] = 'مجاز';
+$string['allowassign'] = 'اجازهٔ انتساب نقش‌ها';
+$string['allowed'] = 'مجاز';
+$string['allowoverride'] = 'اجازهٔ بازنویسی نقش‌ها';
+$string['allowroletoassign'] = 'کاربران دارای نقش «{$a->fromrole}» بتوانند نقش «{$a->targetrole}» را نسبت دهند';
+$string['allowroletooverride'] = 'کاربران دارای نقش «{$a->fromrole}» بتوانند نقش «{$a->targetrole}» را بازنویسی کنند';
+$string['allowroletoswitch'] = 'کاربران دارای نقش «{$a->fromrole}» بتوانند به «{$a->targetrole}» تغییر نقش موقت دهند';
+$string['allowswitch'] = 'اجازهٔ تغییر موقت نقش‌ها';
+$string['allsiteusers'] = 'همهٔ کاربران سایت';
+$string['archetype'] = 'الگوی اولیه نقش';
+$string['archetypecoursecreator'] = 'الگوی اولیه: درس‌ساز';
+$string['archetypeeditingteacher'] = 'الگوی اولیه: استاد (با حق ویرایش)';
+$string['archetypefrontpage'] = 'الگوی اولیه: کاربر شناسایی‌شده در صفحهٔ اول';
+$string['archetypeguest'] = 'الگوی اولیه: مهمان';
+$string['archetypemanager'] = 'الگوی اولیه: مدیر';
+$string['archetypestudent'] = 'الگوی اولیه: شاگرد';
+$string['archetypeteacher'] = 'الگوی اولیه: استاد (بدون حق ویرایش)';
+$string['archetypeuser'] = 'الگوی اولیه: کاربر شناسایی شده';
+$string['assignanotherrole'] = 'نسبت دادن یک نقش دیگر';
+$string['assignedroles'] = 'نقش‌های منسوب شده';
+$string['assignerror'] = 'خطا در حین نسبت دادن نقش {$a->role} به کاربر {$a->user}.';
+$string['assignglobalroles'] = 'انتساب نقش‌های سراسری';
+$string['assignmentoptions'] = 'گزینه‌های تکلیف';
+$string['assignrole'] = 'انتساب نقش';
+$string['assignrolenameincontext'] = 'انتساب نقش «{$a->role}» در «{$a->context}»';
+$string['assignroles'] = 'انتساب نقش';
+$string['assignroles_help'] = 'با منسوب کردن نقشی در یک قسمت به یک کاربر، مجوزهای موجود در آن نقش را در ارتباط با آن قسمت و تمام قسمت‌های زیرین به آن کاربر واگذار می‌کنید. برای مثال، اگر نقش شاگرد در درسی به یک کاربر نسبت داده شود، آن کاربر نقش شاگرد را در مورد تمام فعالیت‌ها و بلوک‌های موجود در آن درس نیز خواهد داشت.';
+$string['assignroles_link'] = 'admin/roles/assign';
+$string['assignrolesin'] = 'انتساب نقش در {$a}';
+$string['assignrolesrelativetothisuser'] = 'انتساب نقش‌های مربوط به این کاربر';
+$string['backtoallroles'] = 'بازگشت به لیست همه نقش‌ها';
+$string['backup:anonymise'] = 'ناشناس کردن داده‌های کاربران در هنگام پشتیبان‌گیری';
+$string['backup:backupactivity'] = 'پشتیبان‌گیری از فعالیت‌ها';
+$string['backup:backupcourse'] = 'پشتیبان‌گیری از درس‌ها';
+$string['backup:backupsection'] = 'پشتیبان‌گیری از قسمت‌ها';
+$string['backup:configure'] = 'پیکربندی گزینه‌های پشتیبان‌گیری';
+$string['badges:awardbadge'] = 'اعطای مدال به یک کاربر';
+$string['badges:earnbadge'] = 'دریافت مدال';
+$string['badges:manageglobalsettings'] = 'مدیریت تنظیمات سراسری مدال‌ها';
+$string['badges:manageownbadges'] = 'مشاهده و مدیریت مدال‌هایی که خود کسب کرده است';
+$string['badges:revokebadge'] = 'پس‌گرفتن مدال از یک کاربر';
+$string['badges:viewotherbadges'] = 'مشاهده مدال‌های عمومی در پروفایل سایر کاربران';
+$string['block:edit'] = 'ویرایش تنظیمات یک بلوک';
+$string['block:view'] = 'دیدن بلوک';
+$string['blog:create'] = 'نوشتن مطالب جدید در بلاگ';
+$string['blog:manageentries'] = 'ویرایش و مدیریت نوشته‌ها';
+$string['blog:manageexternal'] = 'ویرایش و مدیریت وبلاگ‌های بیرونی';
+$string['blog:search'] = 'جستجو در نوشته‌های بلاگ';
+$string['blog:view'] = 'دیدن نوشته‌های بلاگ';
+$string['blog:viewdrafts'] = 'مشاهده نوشته‌های پیش‌نویس بلاگ';
+$string['capability'] = 'توانایی';
+$string['category:create'] = 'ایجاد طبقه‌ها';
+$string['category:delete'] = 'پاک‌کردن طبقه‌ها';
+$string['category:manage'] = 'مدیریت طبقه‌ها';
+$string['category:viewhiddencategories'] = 'دیدن طبقه‌های پنهان';
+$string['checkglobalpermissions'] = 'بررسی مجوزهای سیستم';
+$string['checkpermissions'] = 'بررسی مجوزها';
+$string['checkpermissionsin'] = 'بررسی مجوزها در {$a}';
+$string['checkuserspermissionshere'] = 'بررسی مجوزهایي که {$a->fullname} در این {$a->contextlevel} دارد';
+$string['chooseroletoassign'] = 'لطفا یک نقش را برای نسبت دادن انتخاب کنید';
+$string['cohort:assign'] = 'اضافه کردن یا حذف اعضای گروه‌های هم‌دوره‌ای';
+$string['cohort:configurecustomfields'] = 'تنظیم مشخصه‌های اضافی هم‌دوره‌ای';
+$string['cohort:manage'] = 'ایجاد، حذف و انتقال گروه‌های هم‌دوره‌ای';
+$string['comment:post'] = 'ارسال نظر';
+$string['comment:view'] = 'دیدن نظرات';
+$string['competency:competencymanage'] = 'مدیریت چارچوب‌های شایستگی';
+$string['competency:competencyview'] = 'مشاهده چارچوب‌های شایستگی';
+$string['competency:coursecompetencyconfigure'] = 'پیکربندی تنظیمات شایستگی درس';
+$string['competency:coursecompetencygradable'] = 'دریافت نمرات شایستگی';
+$string['competency:coursecompetencymanage'] = 'مدیریت شایستگی‌های درس';
+$string['competency:coursecompetencyview'] = 'مشاهدهٔ شایستگی‌های درس';
+$string['competency:evidencedelete'] = 'پاک‌کردن مدرک';
+$string['competency:plancomment'] = 'نظر دادن روی یک برنامهٔ یادگیری';
+$string['competency:plancommentown'] = 'نظر دادن روی برنامهٔ یادگیری خود';
+$string['competency:planmanage'] = 'مدیریت برنامه‌های یادگیری';
+$string['competency:planmanagedraft'] = 'مدیریت برنامه‌های یادگیری پیش‌نویس';
+$string['competency:planmanageown'] = 'مدیریت برنامه‌های یادگیری خود';
+$string['competency:planmanageowndraft'] = 'مدیریت برنامه‌های یادگیری پیش‌نویس خود';
+$string['competency:planviewdraft'] = 'دیدن برنامه‌های یادگیری پیش‌نویس';
+$string['competency:planviewown'] = 'دیدن برنامه‌های یادگیری خود';
+$string['competency:planviewowndraft'] = 'دیدن برنامه‌های یادگیری پیش‌نویس خود';
+$string['competency:templatemanage'] = 'مدیریت الگوهای برنامه یادگیری';
+$string['competency:templateview'] = 'دیدن الگوهای برنامه یادگیری';
+$string['competency:usercompetencycomment'] = 'نظر دادن در مورد شایستگی یک کاربر';
+$string['competency:usercompetencycommentown'] = 'نظر دادن در مورد شایستگی کاربر خود';
+$string['competency:usercompetencyrequestreview'] = 'درخواست مرور شایستگی یک کاربر';
+$string['competency:usercompetencyrequestreviewown'] = 'درخواست مرور شایستگی کاربر خود';
+$string['competency:usercompetencyreview'] = 'مرور شایستگی یک کاربر';
+$string['competency:usercompetencyview'] = 'مشاهدهٔ شایستگی یک کاربر';
+$string['confirmaddadmin'] = 'آیا واقعاً می‌خواهید کاربر <strong>{$a}</strong> را به عنوان یک مدیر سایت جدید اضافه کنید؟';
+$string['contentbank:access'] = 'دسترسی به بانک محتوا';
+$string['contentbank:deleteanycontent'] = 'پاک کردن هر محتوایی از بانک محتوا';
+$string['contentbank:deleteowncontent'] = 'پاک کردن محتوا از بانک محتوای خود';
+$string['contentbank:manageanycontent'] = 'مدیریت کردن هر محتوایی از بانک محتوا';
+$string['contentbank:manageowncontent'] = 'مدیریت کردن محتوا از بانک محتوای خود';
+$string['contentbank:upload'] = 'آپلود کردن محتوای جدید به بانک محتوا';
+$string['context'] = 'زمینه';
+$string['course:activityvisibility'] = 'پنهان کردن / قابل مشاهده کردن فعالیت‌ها';
+$string['course:changefullname'] = 'تغیير نام کامل درس';
+$string['course:changeshortname'] = 'تغیير نام مختصر درس';
+$string['course:changesummary'] = 'تغیير توصیف درس';
+$string['course:configurecustomfields'] = 'تنظیم مشخصه‌های سفارشی';
+$string['course:create'] = 'ساختن درس‌ها';
+$string['course:delete'] = 'حذف درس‌ها';
+$string['course:enrolconfig'] = 'پیکربندی نمونه‌های ثبت‌نام در درس‌ها';
+$string['course:manageactivities'] = 'مدیریت فعالیت‌ها';
+$string['course:managefiles'] = 'مدیریت فایل‌ها';
+$string['course:managegrades'] = 'مدیریت نمره‌ها';
+$string['course:managegroups'] = 'مدیریت گروه‌ها';
+$string['course:managescales'] = 'مدیریت مقیاس‌ها';
+$string['course:renameroles'] = 'تغییر نام نقش‌ها';
+$string['course:request'] = 'درخواست درس‌های جدید';
+$string['course:reset'] = 'بازنشانی درس';
+$string['course:reviewotherusers'] = 'مرور سایر کاربران';
+$string['course:viewhiddenactivities'] = 'دیدن فعالیت‌های پنهان';
+$string['course:viewhiddencourses'] = 'دیدن درس‌های پنهان';
+$string['course:viewhiddensections'] = 'دیدن قسمت‌های پنهان';
+$string['course:viewparticipants'] = 'دیدن شرکت کنندگان';
+$string['course:viewscales'] = 'مشاهدهٔ مقیاس‌ها';
+$string['course:viewsuspendedusers'] = 'دیدن کاربران تعلیق‌شده';
+$string['course:visibility'] = 'پنهان کردن/نمایش دادن درس‌ها';
+$string['createrolebycopying'] = 'ایجاد یک نقش جدید از روی «{$a}»';
+$string['createthisrole'] = 'ایجاد این نقش';
+$string['currentrole'] = 'نقش فعلی';
+$string['customroledescription'] = 'توصیف سفارشی';
+$string['customroledescription_help'] = 'در صورتی‌که توصیف سفارشی خالی باشد، توصیف نقش‌های استاندارد به‌طور خودکار به زبان مورد استفاده نمایش داده خواهد شد.';
+$string['defaultrole'] = 'نقش پیش‌فرض';
+$string['defineroles'] = 'تعریف نقش‌ها';
+$string['deletecourseoverrides'] = 'پاک کردن تمام بازنویسی‌های صورت گرفته در درس';
+$string['deletelocalroles'] = 'پاک‌کردن تمام انتساب نقش‌های محلی';
+$string['deletexrole'] = 'حذف نقش «{$a}»';
+$string['duplicaterole'] = 'ایجاد یک کپی جدید از روی این نقش';
+$string['duplicaterolesure'] = '<p>آیا مطمئن هستید که می‌خواهید یک رونوشت از روی نقش «{$a->name} ({$a->shortname})» بسازید؟</p>';
+$string['editingrolex'] = 'در حال ویرایش نقش «{$a}»';
+$string['editrole'] = 'ویرایش نقش';
+$string['editxrole'] = 'ویرایش نقش «{$a}»';
+$string['errorbadrolename'] = 'نام نقش نادرست';
+$string['errorbadroleshortname'] = 'نام کوتاه نقش نامناسب';
+$string['eventroleassigned'] = 'نقش داده شد';
+$string['eventroleunassigned'] = 'نقش گرفته شد';
+$string['existingadmins'] = 'مدیران سیستمی فعلی سایت';
+$string['extusers'] = 'کاربران موجود';
+$string['extusersmatching'] = 'کاربران موجود منطبق با «{$a}»';
+$string['frontpageuser'] = 'کاربر شناسایی‌شده در صفحه اول';
+$string['frontpageuserdescription'] = 'همهٔ کاربرانی که با استفاده از نام کاربری خود وارد سایت شده‌اند در درس صفحهٔ اول.';
+$string['globalrole'] = 'نقش سراسری';
+$string['globalroleswarning'] = 'هشدار! هر نقشی که در این صفحه به یک کاربر محول شود، در کل سایت از جمله صفحهٔ اول و همهٔ درس‌ها برای آن کاربر برقرار است.';
+$string['grade:edit'] = 'ویرایش نمرات';
+$string['grade:manage'] = 'مدیریت ‌موارد ارزشیابی';
+$string['grade:managegradingforms'] = 'مدیریت شیوه‌های نمره‌دهی پیشرفته';
+$string['grade:override'] = 'بازنویسی نمرات';
+$string['grade:view'] = 'دیدن نمره‌های خود';
+$string['grade:viewall'] = 'دیدن نمره‌های دیگران';
+$string['h5p:updatelibraries'] = 'مدیریت انواع استاندارد محتوای H5P';
+$string['highlightedcellsshowdefault'] = 'خانه‌های برجسته شده در جدول زیر مجوزهای پیش‌فرض برای این نقش (بر اساس الگوی نقش انتخاب شده در بالا) را نشان می‌دهند.';
+$string['legacy:admin'] = 'نقش سنتی: مدیر سایت';
+$string['legacy:coursecreator'] = 'نقش سنتی: درس‌ساز';
+$string['legacy:editingteacher'] = 'نقش سنتی: استاد (با حق ویرایش)';
+$string['legacy:guest'] = 'نقش سنتی: مهمان';
+$string['legacy:student'] = 'نقش سنتی: شاگرد';
+$string['legacy:teacher'] = 'نقش سنتی: استاد (بدون حق ویرایش)';
+$string['legacy:user'] = 'نقش سنتی: کاربر شناسایی‌شده';
+$string['legacytype'] = 'نوع نقش سنتی';
+$string['listallroles'] = 'لیست همهٔ نقش‌ها';
+$string['localroles'] = 'نقش‌های نسبت داده شدهٔ محلی';
+$string['mainadmin'] = 'مدیر سیستمی اصلی';
+$string['mainadminset'] = 'تعیین مدیر سیستمی اصلی';
+$string['manageadmins'] = 'مدیریت مدیران سیستمی سایت';
+$string['manager'] = 'مدیر';
+$string['managerdescription'] = 'مدیرها می‌توانند وارد درس‌ها شوند و آن‌ها را تغییر دهند. آن‌ها معمولاً در درس‌ها مشارکت نمی‌کنند.';
+$string['manageroles'] = 'مدیریت نقش‌ها';
+$string['maybeassignedin'] = 'نوع زمینه‌هایی که این نقش قابل نسبت روی آن‌ها است';
+$string['morethan'] = 'بیش از {$a} کاربر';
+$string['multipleroles'] = 'نقش‌های چندگانه';
+$string['my:manageblocks'] = 'مدیریت بلوک‌های صفحهٔ میز کار';
+$string['neededroles'] = 'نقش‌های دارای مجوز';
+$string['noroleassignments'] = 'هیچ نقشی در هیچ کجای این سایت به این کاربر نسبت داده نشده است.';
+$string['noroles'] = 'بدون هیچ نقشی';
+$string['notabletoassignroleshere'] = 'در این قسمت نمی‌توانید هیچ نقشی را به کسی نسبت دهید';
+$string['notabletooverrideroleshere'] = 'شما نمی‌توانید مجوزهای هیچ نقشی را اینجا بازنویسی کنید';
+$string['notes:manage'] = 'مدیریت یادداشت‌ها';
+$string['notes:view'] = 'دیدن یادداشت‌ها';
+$string['notset'] = 'تعیین نشده';
+$string['overridepermissions_link'] = 'admin/roles/override';
+$string['overridepermissionsforrole'] = 'بازنویسی مجوزها برای نقش \'{$a->role}\' در {$a->context}';
+$string['overridepermissionsin'] = 'بازنویسی مجوزها در {$a}';
+$string['overrideroles'] = 'نقش‌های رونویسی شده';
+$string['overriderolesin'] = 'بازنویسی نقش‌ها در {$a}';
+$string['payment:viewpayments'] = 'مشاهدهٔ پرداخت‌ها';
+$string['permission'] = 'مجوز';
+$string['permission_help'] = 'مجوزها تنظیمات مربوط به توانایی‌ها هستند. ۴ حالت برای یک مجوز وجود دارد:
+
+* تعیین نشده
+* مجاز - توانایی مورد نظر داده شده است
+* ممنوع - توانایی مورد نظر داده نشده است، حتی اگر در یک زمینهٔ بالاتر مجاز باشد
+* قدغن - توانایی مورد نظر به طور کامل برداشته می‌شود و امکان بازنویسی در زمینه‌های پائین‌تر (مشخص‌تر) وجود ندارد';
+$string['permissions'] = 'مجوزها';
+$string['permissionsforuser'] = 'مجوزهای کاربر {$a}';
+$string['permissionsincontext'] = 'مجوزها در {$a}';
+$string['potentialusers'] = '{$a} کاربر بالقوه';
+$string['potusers'] = 'کاربران بالقوه';
+$string['potusersmatching'] = 'کاربران بااقوهٔ منطبق با «{$a}»';
+$string['prevent'] = 'ممنوع';
+$string['prohibit'] = 'قدغن';
+$string['prohibitedroles'] = 'ممنوع شده';
+$string['question:add'] = 'اضافه‌کردن سؤال‌های جدید';
+$string['question:config'] = 'پیکره‌بندی انواع سوال‌ها';
+$string['question:editall'] = 'ویرایش همه سوال‌ها';
+$string['question:editmine'] = 'ویرایش سوال‌های خود';
+$string['question:managecategory'] = 'ویرایش طبقه‌های سؤال';
+$string['question:moveall'] = 'انتقال همه سوال‌ها';
+$string['question:movemine'] = 'انتقال سوال‌های خود';
+$string['question:useall'] = 'استفاده از همه سوال‌ها';
+$string['question:usemine'] = 'استفاده از سوال‌های خود';
+$string['question:viewall'] = 'مشاهده همه سوال‌ها';
+$string['question:viewmine'] = 'مشاهده سوال‌های خود';
+$string['rating:rate'] = 'امتیاز دادن به موارد قابل ارزیابی';
+$string['resetrole'] = 'بازگشت به مقادیر پیش‌فرض';
+$string['restore:configure'] = 'پیکربندی گزینه‌های بازیابی';
+$string['restore:restoreactivity'] = 'بازیابی فعالیت‌ها';
+$string['restore:restorecourse'] = 'بازیابی درس‌ها';
+$string['restore:restoresection'] = 'بازیابی قسمت‌های درس';
+$string['restore:rolldates'] = 'مجاز به جابه‌جا کردن تاریخ‌های فعالیت‌ها در هنگام بازیابی';
+$string['restore:uploadfile'] = 'قرار دادن فایل در منطقهٔ فایل‌های پشتیبان';
+$string['restore:userinfo'] = 'بازیابی اطلاعات کاربران';
+$string['restore:viewautomatedfilearea'] = 'دیدن ناحیه پشتیبان‌های خودکار';
+$string['risks'] = 'مخاطرات';
+$string['role:assign'] = 'نسبت دادن نقش به کاربران';
+$string['role:manage'] = 'ایجاد و مدیریت نقش‌ها';
+$string['role:override'] = 'بازنویسی مجوزهای سایرین';
+$string['role:review'] = 'مرور مجوزهای سایرین';
+$string['role:switchroles'] = 'تغییر نقش موقتی به سایر نقش‌ها';
+$string['roleallowheader'] = 'نقش مجاز:';
+$string['roleallowinfo'] = 'نقشی را برای اضافه شدن به لیست نقش‌های مجاز در زمینه "{$a->context}", با قابلیت "{$a->cap}"  انتخاب کنید:';
+$string['rolefullname'] = 'نام';
+$string['roleincontext'] = '{$a->role} در {$a->context}';
+$string['roles'] = 'نقش‌ها';
+$string['roles_help'] = 'یک نقش مجموعه‌ای از مجوزها است که در سطح سایت تعریف شده است و می‌توانید آن را در زمینه‌های خاص، به کاربران خاصی نسبت دهید.';
+$string['roles_link'] = 'roles';
+$string['roleselect'] = 'انتخاب نقش';
+$string['rolesforuser'] = 'نقش‌های کاربر {$a}';
+$string['roleshortname'] = 'نام کوتاه';
+$string['roletoassign'] = 'نقشی که می‌خواهید نسبت دهید';
+$string['roletooverride'] = 'نقشی که می‌خواهید بازنویسی کنید';
+$string['selectanotheruser'] = 'یک کاربر دیگر را انتخاب کنید';
+$string['selectauser'] = 'یک کاربر را انتخاب کنید';
+$string['selectrole'] = 'یک نقش را انتخاب کنید';
+$string['showallroles'] = 'نمایش همه نقش‌ها';
+$string['showthisuserspermissions'] = 'نمایش مجوزهای این کاربر';
+$string['site:accessallgroups'] = 'دسترسی به همهٔ گروه‌ها';
+$string['site:approvecourse'] = 'تایید ایجاد درس';
+$string['site:backup'] = 'پشتیبان‌گیری از درس‌ها';
+$string['site:config'] = 'تغییر پیکربندی سایت';
+$string['site:deleteownmessage'] = 'پاک‌کردن پیام‌هایی که توسط کاربر یا به کاربر فرستاده شده است';
+$string['site:doclinks'] = 'نمایش پیوندها به سندهای بیرون سایت';
+$string['site:forcelanguage'] = 'بازنویسی زبان درس';
+$string['site:maintenanceaccess'] = 'دسترسی در هنگام بودن در حالت نگهداشت';
+$string['site:manageblocks'] = 'مدیریت بلوک‌ها در یک صفحه';
+$string['site:mnetloginfromremote'] = 'وارد شدن از یک برنامهٔ بیرونی با استفاده از شبکهٔ مودلی';
+$string['site:mnetlogintoremote'] = 'استفاده کردن از خدمات یک سرویس‌دهندهٔ خارجی از طریق شبکهٔ مودلی';
+$string['site:readallmessages'] = 'خواندن همهٔ پیام‌ها در سایت';
+$string['site:restore'] = 'بازیابی درس‌ها';
+$string['site:sendmessage'] = 'فرستادن پیام به هر کاربری';
+$string['site:trustcontent'] = 'اعتماد به مطالب ارسال کرده';
+$string['site:uploadusers'] = 'تعریف کاربران جدید به وسیلهٔ فایل';
+$string['site:viewfullnames'] = 'دیدن نام کامل کاربران در همه وقت';
+$string['site:viewparticipants'] = 'دیدن شرکت کنندگان';
+$string['site:viewreports'] = 'دیدن گزارش‌ها';
+$string['siteadministrators'] = 'مدیران سیستمی';
+$string['tag:edit'] = 'ویرایش برچسب‌های موجود';
+$string['tag:editblocks'] = 'ویرایش بلوک‌ها در صفحه‌های برچسب‌ها';
+$string['tag:manage'] = 'مدیریت همهٔ برچسب‌ها';
+$string['thisusersroles'] = 'نقش‌های منسوب به این کاربر';
+$string['unassignarole'] = 'حذف نقش {$a}';
+$string['unassignerror'] = 'خطا در هنگام گرفتن نقش {$a->role} از کاربر {$a->user}.';
+$string['user:changeownpassword'] = 'تغییر رمز ورود خود';
+$string['user:create'] = 'ساختن کاربرها';
+$string['user:delete'] = 'حذف کاربرها';
+$string['user:editownprofile'] = 'ویرایش مشخصات فردی خود';
+$string['user:editprofile'] = 'ویرایش مشخصات فردی کاربران';
+$string['user:loginas'] = 'وارد شدن به جای سایر کاربران';
+$string['user:readuserblogs'] = 'دیدن بلاگ‌های همهٔ کاربران';
+$string['user:update'] = 'تغییر مشخصات فردی کاربران';
+$string['user:viewalldetails'] = 'دیدن اطلاعات کامل کاربر';
+$string['user:viewdetails'] = 'دیدن مشخصات فردی کاربران';
+$string['user:viewhiddendetails'] = 'دیدن جزئیات پنهان کاربران';
+$string['user:viewlastip'] = 'دیدن آخرین آدرس IP کاربر';
+$string['user:viewuseractivitiesreport'] = 'دیدن گزارش فعالیت کاربران';
+$string['user:viewusergrades'] = 'دیدن نمرات کاربران';
+$string['userswithrole'] = 'تمام کاربران دارای نقش';
+$string['userswiththisrole'] = 'کاربران دارای نقش';
+$string['useshowadvancedtochange'] = 'برای تغییر از «نمایش قسمت‌های پیشرفتهٔ فرم» استفاده کنید';
+$string['viewingdefinitionofrolex'] = 'در حال مشاهدهٔ تعریف نقش «{$a}»';
+$string['viewrole'] = 'مشاهدهٔ جزئیات نقش';
+$string['webservice:createtoken'] = 'ایجاد یک کلید رمز (توکن) سرویس وب';
+$string['whydoesuserhavecap'] = 'چرا {$a->fullname} توانایی {$a->capability} را در زمینهٔ {$a->context} دارد؟';
+$string['whydoesusernothavecap'] = 'چرا {$a->fullname} توانایی {$a->capability} را در زمینهٔ {$a->context} ندارد؟';
+$string['xroleassignments'] = 'نقش‌های منسوب به {$a}';

@@ -1,0 +1,274 @@
+<?php
+// This file is part of Moodle - https://moodle.org/
+//
+// Moodle is free software: you can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation, either version 3 of the License, or
+// (at your option) any later version.
+//
+// Moodle is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU General Public License for more details.
+//
+// You should have received a copy of the GNU General Public License
+// along with Moodle.  If not, see <https://www.gnu.org/licenses/>.
+
+/**
+ * Strings for component 'calendar', language 'fa', version '4.5'.
+ *
+ * @package     calendar
+ * @category    string
+ * @copyright   1999 Martin Dougiamas and contributors
+ * @license     https://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ */
+
+defined('MOODLE_INTERNAL') || die();
+
+$string['activityevent'] = 'رویداد فعالیت';
+$string['addevent'] = 'افزودن رویدادها';
+$string['advancedoptions'] = 'اختیارات پیشرفته';
+$string['allday'] = 'تمام روز';
+$string['annually'] = 'سالانه';
+$string['calendar'] = 'تقویم';
+$string['calendarheading'] = 'تقویم {$a}';
+$string['calendarpreferences'] = 'ترجیحات تقویم';
+$string['calendartypes'] = 'انواع تقویم';
+$string['category'] = 'طبقه';
+$string['categoryevent'] = 'رویداد دسته';
+$string['categoryevents'] = 'رویدادهای دسته';
+$string['clickhide'] = 'کلیک کنید تا پنهان شوند';
+$string['clickshow'] = 'کلیک کنید تا نمایش داده شوند';
+$string['colactions'] = 'اقدامات';
+$string['colcalendar'] = 'تقویم';
+$string['collastupdated'] = 'آخرین به روز رسانی';
+$string['colpoll'] = 'به روز رسانی';
+$string['commontasks'] = 'اختیارات';
+$string['confirmeventdelete'] = 'آیا مطمئن هستید که می‌خواهید رویداد «{$a}» را حذف کنید؟';
+$string['course'] = 'درس';
+$string['coursecalendar'] = 'تقویم {$a}';
+$string['coursecalendarlink'] = 'تقویم درس';
+$string['courseevent'] = 'رویداد مربوط به درس';
+$string['courseevents'] = 'رویدادهای درس‌ها';
+$string['courses'] = 'درس‌ها';
+$string['customexport'] = 'بازهٔ سفارشی ({$a->timestart} - {$a->timeend})';
+$string['daily'] = 'روزانه';
+$string['day'] = 'روز';
+$string['dayeventsnone'] = 'رویدادی نیست، {$a}';
+$string['daynext'] = 'روز بعد';
+$string['dayprev'] = 'روز قبل';
+$string['dayviewfor'] = 'نمای روز برای:';
+$string['dayviewtitle'] = 'نمای روز: {$a}';
+$string['daywithnoevents'] = 'در این روز رویدادی وجود ندارد.';
+$string['default'] = 'پیش‌فرض';
+$string['deleteallevents'] = 'حذف تمامی رویدادها';
+$string['deleteevent'] = 'حذف رویداد';
+$string['deleteevents'] = 'حذف رویدادها';
+$string['deleteoneevent'] = 'حذف این رویداد';
+$string['detailedmonthviewfor'] = 'نمای مفصل ماهانه برای:';
+$string['detailedmonthviewtitle'] = 'نمای مفصل ماهانه: {$a}';
+$string['durationminutes'] = 'مدت به دقیقه';
+$string['durationnone'] = 'بدون استمرار';
+$string['durationuntil'] = 'تا';
+$string['editevent'] = 'در حال ویرایش رویداد';
+$string['erroraddingevent'] = 'ناموفق در افزودن رویداد';
+$string['errorbadsubscription'] = 'اشتراک تقویم پیدا نشد';
+$string['errorbeforecoursestart'] = 'نمی‌توان رویدادی را قبل از تاریخ شروع درس تعیین کرد';
+$string['errorcannotimport'] = 'در این لحظه نمی‌توانید یک اشتراک تقویم برپا کنید.';
+$string['errorhasuntilandcount'] = 'در یک قانون تکرار (recurrence rule) یا UNTIL و یا COUNT می‌تواند بیاید، ولی هم UNTIL و هم COUNT نمی‌توانند با هم در یک قانون تکرار بیایند.';
+$string['errorinvalidbydayprefix'] = 'مقادیر صحیحی که قبل از قانون‌های BYDAY می‌آیند، تنها برای قوانین تکرار MONTHLY یا YEARLY می‌توانند بیایند.';
+$string['errorinvalidbydaysuffix'] = 'مقادیر معتبر برای قسمت مربوط به روز هفته در قانون BYDATE عبارتند از MO یا TU یا WE یا TH یا FR یا SA یا SU';
+$string['errorinvalidbyhour'] = 'مقادیر معتبر برای قانون BYHOUR اعداد بین 0 تا 23 هستند.';
+$string['errorinvalidbyminute'] = 'مقادیر معتبر برای قانون BYMINUTE اعداد بین 0 تا 59 هستند.';
+$string['errorinvalidbymonth'] = 'مقادیر معتبر برای قانون BYMONTH اعداد بین 1 تا 12 هستند.';
+$string['errorinvalidbymonthday'] = 'مقادیر معتبر برای قانون BYMONTHDAY اعداد بین 1 تا 31 یا -31 تا -1 هستند.';
+$string['errorinvalidbysecond'] = 'مقادیر معتبر برای قانون BYSECOND اعداد بین 0 تا 59 هستند.';
+$string['errorinvalidbysetpos'] = 'مقادیر معتبر برای قانون BYSETPOS اعداد بین 1 تا 366 یا -366 تا -1 هستند.';
+$string['errorinvalidbyweekno'] = 'مقادیر معتبر برای قانون BYWEEKNO اعداد بین 1 تا 53 یا -53 تا -1 هستند.';
+$string['errorinvalidbyyearday'] = 'مقادیر معتبر برای قانون BYYEARDAY اعداد بین 1 تا 366 یا -366 تا -1 هستند.';
+$string['errorinvaliddate'] = 'تاریخ نامعتبر';
+$string['errorinvalidicalurl'] = 'آدرس اینترنتی iCal ارائه شده نامعتبر است.';
+$string['errorinvalidinterval'] = 'مقدار مربوط به قانون INTERVAL باید یک عدد صحیح مثبت باشد.';
+$string['errorinvalidminutes'] = 'مدت زمان را به دقیقه و با عددی بین ۱ و ۹۹۹ تعیین نمائید.';
+$string['errorinvalidrepeats'] = 'با تعیین عددی بین ۱ و ۹۹ تعداد رویدادها را مشخص نمائید.';
+$string['errormustbeusedwithotherbyrule'] = 'قانون BYSETPOS تنها به همراه یک قانون BYxxx دیگر می‌تواند به کار رود.';
+$string['errornodescription'] = 'نوشتن شرح لازم است';
+$string['errornoeventname'] = 'تعیین نام ضروری است';
+$string['errornonyearlyfreqwithbyweekno'] = 'قانون BYWEEKNO تنها برای قانون‌های YEARLY معتبر است.';
+$string['errorrequiredurlorfile'] = 'برای وارد کردن تقویم، فراهم کردن یک آدرس یا یک فایل لازم است.';
+$string['errorrrule'] = 'قانون تکرار ارسالی نادرست به‌نظر می‌رسد.';
+$string['errorrruleday'] = 'قانون تکرار یک پارامتر day نامعتبر دارد.';
+$string['errorrrulefreq'] = 'قانون تکرار یک پارامتر frequency نامعتبر دارد.';
+$string['eventcalendareventcreated'] = 'رویداد تقویم ساخته شد';
+$string['eventcalendareventdeleted'] = 'رویداد تقویم حذف شد';
+$string['eventcalendareventupdated'] = 'رویداد تقویم به روز رسانی شد';
+$string['eventdate'] = 'تاریخ';
+$string['eventdescription'] = 'شرح';
+$string['eventduration'] = 'مدت';
+$string['eventendtime'] = 'زمان اتمام';
+$string['eventendtimewrapped'] = '{$a} (زمان اتمام)';
+$string['eventinstanttime'] = 'زمان';
+$string['eventkind'] = 'نوع رویداد';
+$string['eventname'] = 'عنوان رویداد';
+$string['eventnameandcategory'] = '{$a->category}: {$a->name}';
+$string['eventnameandcourse'] = '{$a->course}: {$a->name}';
+$string['eventnone'] = 'رویدادی نیست';
+$string['eventrepeat'] = 'تکرار';
+$string['events'] = 'رویدادها';
+$string['eventsall'] = 'همهٔ رویدادها';
+$string['eventsdeleted'] = 'رویدادها حذف شدند';
+$string['eventsfor'] = 'رویدادها {$a}';
+$string['eventsimported'] = 'رویدادهای وارد شده: {$a}';
+$string['eventskey'] = 'کلید رویدادها';
+$string['eventsource'] = 'منشاء رویداد';
+$string['eventspersonal'] = 'رویدادهای شخصی من';
+$string['eventsrelatedtocategories'] = 'رویدادهای مربوط به دسته‌ها';
+$string['eventsrelatedtocourses'] = 'رویدادهای مربوط به درس‌ها';
+$string['eventsrelatedtogroups'] = 'رویدادهای مربوط به گروه‌ها';
+$string['eventsskipped'] = '';
+$string['eventstarttime'] = 'زمان شروع';
+$string['eventstoexport'] = 'رویدادهایی که صادر می‌شوند';
+$string['eventsubscriptioncreated'] = 'اشتراک تقویم ایجاد شد';
+$string['eventsubscriptiondeleted'] = 'اشتراک تقویم حذف شد';
+$string['eventsubscriptioneditwarning'] = 'این رویداد تقویم، بخشی از یک آبونمان است. هر تغییری که در این رویداد بدهید در صورت پاک شدن آبونمان از دست خواهد رفت.';
+$string['eventsubscriptionupdated'] = 'اشتراک تقویم به‌روز شد';
+$string['eventsupdated'] = 'رویدادهای به‌روز شده: {$a}';
+$string['eventtime'] = 'ساعت';
+$string['eventtype'] = 'نوع رویداد';
+$string['eventtypecategory'] = 'دسته';
+$string['eventtypecourse'] = 'درس';
+$string['eventtypegroup'] = 'گروه';
+$string['eventtypemodule'] = 'ماژول';
+$string['eventtypesite'] = '';
+$string['eventtypeuser'] = 'کاربر';
+$string['eventview'] = 'جزئیات رویداد';
+$string['expired'] = 'منقضی';
+$string['explain_site_timeformat'] = 'می‌توانید ساعت‌ها را به هر دو صورت ۱۲ ساعتی یا ۲۴ ساعتی که بخواهید در کل سایت ببینید. اگر گزینهٔ «پیش‌فرض» را انتخاب کنید، نحوهٔ نمایش بر اساس زبان مورد استفاده در سایت تعیین خواهد شد. این تنظیم می‌توانید با ترجیحات کاربر بازنویسی شود.';
+$string['export'] = 'صدور تقویم';
+$string['exportbutton'] = 'صدور';
+$string['exportcalendar'] = 'صدور تقویم';
+$string['exporthelp'] = 'چطور از یک برنامهٔ تقویم (گوگل، Outlook، غیره) در این تقویم آبونه شوم؟';
+$string['forcecalendartype'] = 'اجبار تقویم';
+$string['fri'] = 'ج';
+$string['friday'] = 'جمعه';
+$string['fullcalendar'] = 'تقویم کامل';
+$string['generateurlbutton'] = 'دریافت آدرس تقویم';
+$string['gotoactivity'] = 'رفتن به فعالیت';
+$string['gotocalendar'] = 'نمایش تقویم';
+$string['group'] = 'گروه';
+$string['groupevent'] = 'رویداد مربوط به گروه';
+$string['groupevents'] = 'رویدادهای گروه';
+$string['hideeventtype'] = 'پنهان کردن رویدادهای {$a}';
+$string['hourly'] = 'ساعتی';
+$string['importcalendar'] = 'وارد کردن تقویم';
+$string['importcalendarfrom'] = 'وارد کردن از';
+$string['importcalendarheading'] = 'وارد کردن تقویم...';
+$string['importfromfile'] = 'فایل تقویم (ics.)';
+$string['importfromurl'] = 'آدرس تقویم';
+$string['invalideventtype'] = 'نوع رویداد انتخابی شما نامعتبر است';
+$string['invalidtimedurationminutes'] = 'مقداری که برای «مدت به دقیقه» وارد کرده‌اید نامعتبر است. لطفا یک مقدار بزرگ‌تر از صفر برای «مدت به دقیقه» وارد کنید یا اینکه «بدون استمرار» را انتخاب کنید.';
+$string['invalidtimedurationuntil'] = 'روز و ساعتی که برای تکرار تا آن زمان وارد کرده‌اید قبل از زمان شروع رویداد است. لطفا پیش از ادامه دادن، این مشکل را برطرف کنید.';
+$string['iwanttoexport'] = 'صدور';
+$string['less'] = 'کمتر';
+$string['managesubscriptions'] = 'مدیریت اشتراک‌ها';
+$string['manyevents'] = '{$a} رویداد';
+$string['mon'] = 'د';
+$string['monday'] = 'دوشنبه';
+$string['monthly'] = 'ماهانه';
+$string['monthnext'] = 'ماه بعد';
+$string['monthprev'] = 'ماه گذشته';
+$string['monththis'] = 'ماه جاری';
+$string['more'] = 'بیشتر';
+$string['namewithsource'] = '{$a->name} ({$a->source})';
+$string['never'] = 'هیچ‌وقت';
+$string['newevent'] = 'رویداد جدید';
+$string['nocalendarsubscriptions'] = 'شما آبونهٔ هیچ تقویمی نیستید.';
+$string['notitle'] = 'بدون عنوان';
+$string['noupcomingevents'] = 'رویداد خاصی نزدیک نیست';
+$string['oneevent'] = '۱ رویداد';
+$string['pollinterval'] = 'فواصل به‌روزرسانی';
+$string['pollinterval_help'] = 'هر چند وقت یک‌بار می‌خواهید که تقویم با رویدادهای جدید به‌روز شود.';
+$string['pref_lookahead'] = 'آستانهٔ نزدیک در نظر گرفتن رویداد (بر حسب روز)';
+$string['pref_lookahead_help'] = 'این گزینه تعیین می‌کند که یک رویداد باید (حداکثر) از چند روز آینده شروع شود تا به‌عنوان رویداد نزدیک در نظر گرفته شود. رویدادهایی که بعد از این زمان شروع می‌شوند به‌عنوان رویداد نزدیک نشان داده نخواهند شد. لطفا توجه داشته باشید که <strong>تضمینی نیست</strong> که تمام رویدادهای که در این بازهٔ زمانی آغاز می‌شوند در لیست رویدادهای نزدیک نشان داده شوند؛ اگر تعداد رویدادها زیاد باشد (بیشتر از مقدار تعیین‌شده برای «حداکثر رویدادهای نزدیک») آنگاه برخی از دورترین رویدادها نمایش داده نخواهند شد.';
+$string['pref_maxevents'] = 'حداکثر رویدادهای نزدیک';
+$string['pref_maxevents_help'] = 'این گزینه حداکثر تعداد رویدادهای نزدیک که نمایش داده می‌شود را تعیین می‌کند. اگر مقدار بزرگی را انتخاب کنید، ممکن است «رویدادهای نزدیک» نمایش داده شده فضای زیادی از صفحهٔ شما را اشغال کنند.';
+$string['pref_persistflt'] = 'به خاطر سپاری تنظیمات فیلتر';
+$string['pref_persistflt_help'] = 'چنانچه این تنظیم فعال باشد، آنگاه مودل آخرین تنظیمات فیلتر رویداد شما را به‌خاطر می‌سپارد و هر بار که وارد سایت می‌شوید به‌طور خودکار آنها را بازیافت خواهد کرد.';
+$string['pref_startwday'] = 'اولین روز هفته';
+$string['pref_startwday_help'] = 'هفته‌های تقویم از این روز شروع خواهند شد.';
+$string['pref_timeformat'] = 'نحوهٔ نمایش ساعت';
+$string['pref_timeformat_help'] = 'می‌توانید ساعت‌ها را به هر دو صورت ۱۲ ساعتی یا ۲۴ ساعتی که بخواهید ببینید. اگر گزینهٔ «پیش‌فرض» را انتخاب کنید، نحوهٔ نمایش بر اساس زبان مورد استفاده در سایت تعیین خواهد شد.';
+$string['preferences'] = 'ترجیحات';
+$string['preferences_available'] = 'ترجیحات شخصی شما';
+$string['preferredcalendar'] = 'تقویم دلخواه';
+$string['privacy:metadata:calendar:event'] = 'کامپوننت تقویم می‌تواند جزئیات رویداد تقویم کاربر را در زیر سیستم اصلی ذخیره کند.';
+$string['privacy:metadata:calendar:event:description'] = 'شرح رویداد تقویم.';
+$string['privacy:metadata:calendar:event:eventtype'] = 'نوع رویداد تقویم.';
+$string['privacy:metadata:calendar:event:name'] = 'نام رویداد تقویم.';
+$string['privacy:metadata:calendar:event:timeduration'] = 'مدت زمان رویداد تقویم.';
+$string['privacy:metadata:calendar:event:timestart'] = 'زمان شروع رویداد تقویم.';
+$string['privacy:metadata:calendar:event_subscriptions'] = 'کامپونت تقویم می تواند جزئیات اشتراک های تقویم کاربر را در زیر سیستم اصلی ذخیره کند.';
+$string['privacy:metadata:calendar:event_subscriptions:eventtype'] = 'نوع رویداد اشتراک تقویم.';
+$string['privacy:metadata:calendar:event_subscriptions:name'] = 'نام اشتراک تقویم.';
+$string['privacy:metadata:calendar:event_subscriptions:url'] = 'آدرس اشتراک تقویم.';
+$string['privacy:metadata:calendar:preferences:calendar_savedflt'] = 'پیکربندی تنظیم شده نوع نمایش تقویم نمایش اولویت کاربر.';
+$string['recentupcoming'] = 'اخیر و ۶۰ روز آینده';
+$string['repeatedevents'] = 'رویداد تکرار شونده';
+$string['repeateditall'] = 'اعمال تغییرات روی هر {$a} رویداد دیگر در این سلسله رویداد';
+$string['repeateditthis'] = 'اعمال تعییرات فقط روی این رویداد';
+$string['repeatevent'] = 'تکرار این رویداد';
+$string['repeatnone'] = 'بدون تکرار';
+$string['repeatweeksl'] = 'به صورت هفتگی، در مجموع';
+$string['repeatweeksr'] = 'رویداد';
+$string['sat'] = 'ش';
+$string['saturday'] = 'شنبه';
+$string['showeventtype'] = 'نمایش رویدادهای  {$a}';
+$string['shown'] = 'نمایان';
+$string['site'] = 'سایت';
+$string['siteevents'] = 'رویدادهای سایت';
+$string['spanningevents'] = 'رویدادهای در جریان';
+$string['subscriptionname'] = 'نام تقویم';
+$string['subscriptionremoved'] = 'اشتراک تقویم {$a} حذف شد';
+$string['subscriptions'] = 'اشتراک‌ها';
+$string['subscriptionsource'] = 'منشاء رویداد : {$a}';
+$string['subscriptionupdated'] = 'اشتراک تقویم {$a} به‌روز شد';
+$string['sun'] = 'ی';
+$string['sunday'] = 'یک‌شنبه';
+$string['thu'] = 'پ';
+$string['thursday'] = 'پنج‌شنبه';
+$string['timeformat_12'] = '۱۲ ساعتی (صبح/عصر)';
+$string['timeformat_24'] = '۲۴ ساعتی';
+$string['timeperiod'] = 'بازهٔ زمانی';
+$string['today'] = 'امروز';
+$string['todayplustitle'] = 'امروز {$a}';
+$string['tomorrow'] = 'فردا';
+$string['tt_deleteevent'] = 'حذف رویداد';
+$string['tt_editevent'] = 'ویرایش رویداد';
+$string['tue'] = 'س';
+$string['tuesday'] = 'سه‌شنبه';
+$string['typecategory'] = 'رویدادهای دسته';
+$string['typeclose'] = 'بستن رویداد';
+$string['typecourse'] = 'رویداد درس';
+$string['typedue'] = 'موعد رویداد';
+$string['typegradingdue'] = '';
+$string['typegroup'] = 'رویداد گروهی';
+$string['typeopen'] = 'باز کردن رویداد';
+$string['typesite'] = 'رویداد سایت';
+$string['typeuser'] = 'رویداد کاربر';
+$string['upcomingevents'] = 'رویدادهای نزدیک';
+$string['upcomingeventsfor'] = 'رویدادهای آینده برای:';
+$string['urlforical'] = 'آدرس صدور به iCalendar، جهت آبونه شدن در تقویم';
+$string['user'] = 'کاربر';
+$string['userevent'] = 'رویداد مربوط به کاربر';
+$string['userevents'] = 'رویدادهای کاربر';
+$string['viewupcomingactivitiesdue'] = 'مشاهده فعالیت‌های پیش‌رو';
+$string['wed'] = 'چ';
+$string['wednesday'] = 'چهارشنبه';
+$string['weekly'] = 'هفتگی';
+$string['weeknext'] = 'هفتهٔ بعد';
+$string['weekthis'] = 'این هفته';
+$string['when'] = 'چه زمانی';
+$string['whendate'] = 'چه زمانی : {$a}';
+$string['yesterday'] = 'دیروز';
+$string['youcandeleteallrepeats'] = 'این رویداد قسمتی از یک سلسله رویداد است. می‌توانید فقط این رویداد را حذف کنید، یا اینکه همهٔ {$a} رویداد این سلسله رویداد را به صورت یکجا حذف نمائید.';
+$string['yoursubscriptions'] = 'تقویم‌های وارد شده';
