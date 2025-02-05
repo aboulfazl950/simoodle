@@ -242,6 +242,7 @@ $cache = array (
     'calendartype' => 
     array (
       'gregorian' => 'D:\\wamp64\\www\\simoodle\\moodle\\public_html/calendar/type/gregorian',
+      'jalali' => 'D:\\wamp64\\www\\simoodle\\moodle\\public_html/calendar/type/jalali',
     ),
     'communication' => 
     array (
@@ -1742,6 +1743,9 @@ $cache = array (
     'calendartype_gregorian\\privacy\\provider' => 'D:\\wamp64\\www\\simoodle\\moodle\\public_html/calendar/type/gregorian/classes/privacy/provider.php',
     'calendartype_gregorian\\structure' => 'D:\\wamp64\\www\\simoodle\\moodle\\public_html/calendar/type/gregorian/classes/structure.php',
     'calendartype_gregorian_structure' => 'D:\\wamp64\\www\\simoodle\\moodle\\public_html/calendar/type/gregorian/classes/structure.php',
+    'calendartype_jalali\\privacy\\provider' => 'D:\\wamp64\\www\\simoodle\\moodle\\public_html/calendar/type/jalali/classes/privacy/provider.php',
+    'calendartype_jalali\\structure' => 'D:\\wamp64\\www\\simoodle\\moodle\\public_html/calendar/type/jalali/classes/structure.php',
+    'calendartype_jalali_structure' => 'D:\\wamp64\\www\\simoodle\\moodle\\public_html/calendar/type/jalali/classes/structure.php',
     'coding_exception' => 'D:\\wamp64\\www\\simoodle\\moodle\\public_html/lib/classes/exception/coding_exception.php',
     'combined_progress_trace' => 'D:\\wamp64\\www\\simoodle\\moodle\\public_html/lib/classes/output/progress_trace/combined_progress_trace.php',
     'communication_customlink\\communication_feature' => 'D:\\wamp64\\www\\simoodle\\moodle\\public_html/communication/provider/customlink/classes/communication_feature.php',
